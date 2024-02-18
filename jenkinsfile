@@ -1,0 +1,8 @@
+node {
+    stage("clone") {
+        git branch: 'master', url: 'https://github.com/Yoni182/DevOps2412.git'
+    }
+    stage("show files"){https://github.com/Yoni182/DevOps2412/tree/master
+        sh "ls -l"
+    }
+}
