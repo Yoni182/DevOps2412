@@ -3,8 +3,8 @@ b = 14
 my_name = "Yoni"
 if my_name == "Yoni" and (b >= 10 or a < 50):
     print("You are Yoni")
-    print("Hello!")
     print("World")
+    print("dude")
 elif my_name == "Yoni":
     print("Found your name")
 elif b > 5:
@@ -14,7 +14,7 @@ else:
 
 my_list = [2]
 if len(my_list):
-    print("you have items")
+    print("you have itemsssssss")
 else:
     print("no items in the list")
 
